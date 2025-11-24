@@ -66,6 +66,9 @@
             font-size: 1.2rem;
             opacity: 0.9;
             font-style: italic;
+            text-align: center;
+            width: 100%;
+            display: block;
         }
 
         nav {
@@ -207,6 +210,32 @@
             text-align: center;
             padding: 2rem 0;
             margin-top: 3rem;
+        }
+        
+        footer p {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        footer .footer-links {
+            margin-top: 1.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        footer .footer-links a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.9;
+            transition: opacity 0.3s;
+        }
+        
+        footer .footer-links a:hover {
+            opacity: 1;
+            text-decoration: underline;
         }
 
         .hero {
@@ -393,6 +422,10 @@
         <div class="container">
             <p>&copy; 2024 Правый вагон. Все права защищены.</p>
             <p style="margin-top: 1rem; font-size: 0.9rem;">За свободу, собственность и достоинство каждого человека.</p>
+            <div class="footer-links">
+                <a href="contacts.html">Контакты</a>
+                <a href="privacy.html">Политика конфиденциальности</a>
+            </div>
         </div>
     </footer>
 </body>
